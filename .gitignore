@@ -1,5 +1,56 @@
+# Python cache files
+pycache/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv/
-__pycache__/
-*.pyc
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
 .env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# FastAPI / local runtime
+*.db
+*.sqlite3
+
+# Model training temporary outputs
+checkpoints/
+runs/
+logs/
+
+# Large raw backup files
+*.zip
+*.rar
+*.7z
